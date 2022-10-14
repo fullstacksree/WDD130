@@ -44,7 +44,7 @@ body {
     text-align: center;
 }
 div {
-    max-width: 1600px;
+    #content{max-width: 1600px;}
 }
 #background {
     background-color: #96c9dc;
