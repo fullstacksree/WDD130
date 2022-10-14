@@ -25,21 +25,17 @@ main section img {
 }
 .msg p {
     font-family: 'Poppins', Arial, Helvetica;
-    font-size: .8em
-}
-.msg p {
+    font-size: .8em;
     padding-bottom: 15px;
-} 
+}
 .msg {
     background-color: #6f7364;
     line-height: 1.5em;
     padding: 35px;
 }
 header {
+    background-color:rgba(20,30,13, .7);
     text-align: left;
-}
-body {
-    text-align: center;
 }
 #content {max-width: 1600px;}
 #background {
@@ -48,6 +44,7 @@ body {
 }
 body {
     background-color: #fcfbfb;
+    text-align: center;
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 22px;
     margin: 0;
@@ -55,9 +52,6 @@ body {
 }
 h2 {
     margin: 0;
-}
-header {
-    background-color:rgba(20,30,13, .7);
 }
 footer {
     background-color:#5e644f;
@@ -68,9 +62,6 @@ footer {
 }
 footer .social img {
     padding-top: 15px;
-}
-nav a:hover {
-    background-color: black;
 }
 nav a:hover {
     background-color: black;
