@@ -37,7 +37,7 @@ header {
     background-color:rgba(20,30,13, .7);
     text-align: left;
 }
-#content {max-width: 1600px;}
+#content {max-width: 1600px; margin: 0 auto;}
 #background {
     background-color: #96c9dc;
     height: 725px;
