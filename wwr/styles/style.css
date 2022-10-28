@@ -48,15 +48,20 @@
 }
 main section img {
     box-sizing: border-box;
+    text-align: center;
 }
 .rivers-card, .camping-card, .rapids-card {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    position: relative;
     margin: 200px 0;    
 }
 .rivers-card {
-    grid-column: 2/4;
-    grid-row: 2/3;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin-right: 20px
 }
 .camping-card {
     grid-column: 5/7;
