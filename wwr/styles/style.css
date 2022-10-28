@@ -54,8 +54,7 @@ main section img {
     display: flex;
     flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    position: relative;
+    justify-items: center;
     margin: 200px 0;    
 }
 .rivers-card {
