@@ -55,7 +55,7 @@ main section {
 
 main section img {
     box-sizing: border-box;
-    text-align: center;
+    
 }
 .rivers-card, .camping-card, .rapids-card, .icon {
     display: grid;
