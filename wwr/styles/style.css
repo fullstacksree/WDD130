@@ -179,6 +179,17 @@ a {
 .button-box {
     text-align: center;
 }
+.whitewaterrivers-card {
+    display: auto;
+    margin-left: 0px;
+    margin-top: 10px;    
+}
+.whitewatercard-img {
+    border-radius: 10px;
+    margin-left: 5px;
+    width: auto;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
