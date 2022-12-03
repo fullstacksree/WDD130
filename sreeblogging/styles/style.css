@@ -60,7 +60,7 @@ main section {
     background-color: #ffad69;
     line-height: 1.25em;
     padding: 35px;
-    margin-top: 90px;
+    margin-top: 125px;
     width: 100%;
     height: 80%;
     grid-column: 4/10;
@@ -93,7 +93,10 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 22px;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
 }
 h2 {
     margin: 0;    
@@ -104,7 +107,7 @@ h2 {
     height: 95%;
     grid-column: 2/5;
     grid-row: 4/8;
-    margin-top: 30px;
+    margin-top: 80px;
     box-shadow: 5px 5px 10px #6f7364;
     border-radius: 20px;   
 }
@@ -278,6 +281,7 @@ button {
 
 body {
   margin: 0;
+  padding: 20px;
   font-family: 'Poppins', Arial, Helvetica;
 }
 
@@ -336,6 +340,15 @@ body {
 
 .topnav .login-container button:hover {
   background-color: black;
+}
+
+.content {
+    align-content: space-around;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 900px) {
