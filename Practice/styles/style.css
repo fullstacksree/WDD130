@@ -1,83 +1,63 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
-.cssdoodler-table {
-  margin: 1em 0;
-  min-width: 300px;
+body{
+	margin:0;
+	background-color: #efefef;
 }
-.cssdoodler-table tr {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+header {
+	font-size: 20px;
+	background-color: black;
+	color: #cccccc;
+	height: 75px;
 }
-.cssdoodler-table th {
-  display: none;
+#topbar{
+	width:75%;
+	margin-left: auto ;
+    margin-right: auto ;
 }
-.cssdoodler-table td {
-  display: block;
+nav {
+	float: right;
 }
-.cssdoodler-table td:first-child {
-  padding-top: .5em;
+nav li{
+	display: inline;
+	padding-right: 30px;
 }
-.cssdoodler-table td:last-child {
-  padding-bottom: .5em;
-}
-.cssdoodler-table td:before {
-  content: attr(data-th) ": ";
-  font-weight: bold;
-  width: 6.5em;
-  display: inline-block;
-}
-@media (min-width: 480px) {
-  .cssdoodler-table td:before {
-    display: none;
-  }
-}
-.cssdoodler-table th, .cssdoodler-table td {
-  text-align: left;
-}
-@media (min-width: 480px) {
-  .cssdoodler-table th, .cssdoodler-table td {
-    display: table-cell;
-    padding: .25em .5em;
-  }
-  .cssdoodler-table th:first-child, .cssdoodler-table td:first-child {
-    padding-left: 0;
-  }
-  .cssdoodler-table th:last-child, .cssdoodler-table td:last-child {
-    padding-right: 0;
-  }
+.logo {
+	float:left;
+	font-size:30px;
+	padding-left:20px;
+	padding-top:20px;
 }
 
-body {
-  padding: 0 2em;
-  font-family: Montserrat, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  color: #444;
-  background: #eee;
+.box{
+	margin-top: 20px;
+	width:75%;
+	margin-left: auto ;
+    margin-right: auto ;
+    height: 400px;
 }
 
-h1 {
-  font-weight: normal;
-  letter-spacing: -1px;
-  color: #272525;
+.blog-post{
+	margin-top:20px;
+	float:left;
 }
-
-.cssdoodler-table {
-  background: #272525;
-  color: #fff;
-  border-radius: .4em;
-  overflow: hidden;
+.blog-heading{
+	font-size: 36px;
+	margin-bottom:20px;
 }
-.cssdoodler-table tr {
-  border-color: #46637f;
+.sidebar{
+	float:right;
 }
-.cssdoodler-table th, .cssdoodler-table td {
-  margin: .5em 1em;
+footer{	
+	color: white;	
+	margin-left: auto ;    
+	margin-right: auto ;	
+	font-size:16px;	
+	min-height: 50px;	
+	padding:20px;	
+	background-color: black;	
 }
-@media (min-width: 480px) {
-  .cssdoodler-table th, .cssdoodler-table td {
-    padding: 1em !important;
-  }
-}
-.cssdoodler-table th, .cssdoodler-table td:before {
-  color: #dd5;
+#footer{	
+	width:75%;
+	margin-left: auto ;    
+	margin-right: auto ;
 }

@@ -350,6 +350,90 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #ffad69;
+}
+
+/* Add a card effect for articles */
+.card {
+    position: relative;
+    background-color: #f5e663;
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+    align-content: justify;
+}
+
+*{
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    border: 1px;
+    margin-top: 1px;
+    background-color: #f5e663;
+    padding: 12px;
+}
+.comment-container {
+	max-width: 300px;
+	margin: 30px auto;
+	background: #47a8bd;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.margin-bottom { 50px; }
+
+.comment {
+	display: block;
+	transition: all 1s;
+}
+
+.commentClicked {
+	min-height: 0px;
+	border: 1px solid #1e3888;
+	border-radius: 5px;
+	padding: 5px 10px
+}
+
+textarea {
+	width: 100%;
+	border: none;
+	background: #ffad69;
+	padding: 5px 10px;
+	height: 100%;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 2px solid #016BA8;
+	transition: all 0.5s;
+	margin-top: 15px;
+}
+
+button.primaryContained {
+	background: #1e3888;
+	color: #f5e663;
+	padding: 10px 10px;
+	border: none;
+	margin-top: 0px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	transition: 1s all;
+	font-size: 10px;
+	border-radius: 5px;
+}
+
+button.primaryContained:hover {
+	background: #1e3888;
+}
+  
 
 @media screen and (max-width: 900px) {
     .topnav .login-container {
