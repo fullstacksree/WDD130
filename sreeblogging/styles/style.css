@@ -364,7 +364,6 @@ body {
     float: left;
     padding: 20px;
     margin-top: 20px;
-    align-content: justify;
 }
 
 *{
@@ -382,15 +381,13 @@ ul li {
     padding: 12px;
 }
 .comment-container {
-	max-width: 300px;
+	max-width: 640px;
 	margin: 30px auto;
 	background: #47a8bd;
 	border-radius: 8px;
 	padding: 20px;
+    margin-bottom: 50px;
 }
-
-.margin-bottom { 50px; }
-
 .comment {
 	display: block;
 	transition: all 1s;
