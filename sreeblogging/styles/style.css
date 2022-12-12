@@ -60,7 +60,7 @@ main section {
     background-color: #ffad69;
     line-height: 1.25em;
     padding: 35px;
-    margin-top: 125px;
+    margin-top: 90px;
     width: 100%;
     height: 80%;
     grid-column: 4/10;
@@ -107,7 +107,7 @@ h2 {
     height: 95%;
     grid-column: 2/5;
     grid-row: 4/8;
-    margin-top: 80px;
+    margin-top: 35px;
     box-shadow: 5px 5px 10px #6f7364;
     border-radius: 20px;   
 }
@@ -162,8 +162,8 @@ a {
 }
 .testimonial {
     background-color: #f5e663;
-    line-height: 1.5em;
-    padding: 30px;
+    line-height: 1.25em;
+    padding: 25px;
     margin-top: 50px;
     border-radius: 30px;
     text-align: center;
@@ -247,7 +247,7 @@ button {
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
   text-align: center;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 10px;
   justify-content: center;
   border-radius: 2em;
@@ -268,7 +268,7 @@ button {
     float: left;
     width: 31.00%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 320px; /* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -403,7 +403,6 @@ ul li {
 textarea {
 	width: 100%;
 	border: none;
-	background: #ffad69;
 	padding: 5px 10px;
 	height: 100%;
 	border-radius: 5px 5px 0px 0px;
