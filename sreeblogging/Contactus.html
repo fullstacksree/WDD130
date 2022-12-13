@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,22 +29,6 @@
         </nav>
     </header>
 
-<div id="feedback"></div>
-<style>#feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;      
-}
-.moveDown {
-    margin-top: 3em;
-}
-</style>
-
 <form action="/my-handling-form-page" method="post">
     <ul>
         <li>
@@ -59,13 +43,11 @@
           <label for="msg">Message:</label>
           <textarea id="msg" name="user_message"></textarea>
         </li>
-      </ul>
-</form>
-
-    <li class="button">
+      </ul>    
         <button type="submit">Send your message</button>
       </li>
-    </main>
+    </form>
+    
     <footer>
         <p>Sree Blogging &copy; 2022</p>
     <p><a href="site-plan.html">Site Plan</a></p>

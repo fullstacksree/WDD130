@@ -175,7 +175,7 @@ form {
     width: 400px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #1e3888;
     border-radius: 1em;
   }
   
@@ -193,27 +193,27 @@ label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
-    text-align: right;
+    text-align: left;
 }
   
 input,
   textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 1em sans-serif;
+    font: 1em 'Poppins' Arial;
   
     /* Uniform text field size */
     width: 300px;
     box-sizing: border-box;
   
     /* Match form field borders */
-    border: 1px solid #999;
+    border: 1px solid #1e3888;
 }
   
 input:focus,
 textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #000;
+    border-color: #1e3888;
 }
   
 textarea {
@@ -232,7 +232,7 @@ textarea {
 button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
-    margin-left: 40em;
+    margin-left: 09em;
 }
 
 * {
