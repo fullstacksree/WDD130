@@ -200,7 +200,7 @@ input,
   textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-    font: 1em 'Poppins' Arial;
+    font: 1em 'Poppins';
   
     /* Uniform text field size */
     width: 300px;
