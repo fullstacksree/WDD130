@@ -242,15 +242,15 @@ button {
 /* Create three equal columns that floats next to each other */
 .column {
     margin-top: 100px;
-  float: left;
-  width: 31.00%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  justify-content: center;
-  border-radius: 2em;
+    float: left;
+    width: 31.00%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    border-radius: 2em;
 }
 
 /* Clear floats after the columns */
@@ -330,8 +330,8 @@ body {
   padding: 6px 10px;
   margin-top: -31px;
   margin-right: 16px;
-  background-color: #555;
-  color: white;
+  background-color: #f5e663;
+  color: #555;
   font-size: 17px;
   border: none;
   border-radius: 10px;
@@ -339,7 +339,7 @@ body {
 }
 
 .topnav .login-container button:hover {
-  background-color: black;
+  background-color: #ffad69;
 }
 
 .content {
